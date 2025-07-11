@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="index.css"> <!-- Link to your CSS file -->
+</head>
+<body class="login-page">
+
+    
+<header>
+        <div class="logo">
+            <a href="./main.html"><img src="./GoFit_logo1-removebg-preview.png" alt="GoFit Logo"></a>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#">Exercises</a></li>
+                <li><a href="#">Trainers</a></li>
+                <li><a href="#">Supplements</a></li>
+            </ul>
+        </nav>
+        <h3 class="slogan">Push Yourselves to the Limit</h3>
+    </header>
+    <div class="login-container">
+        <div class="login-form">
+            <h2>Login</h2>
+            <form action="/login" method="post">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" required>
+
+                <div class="checkbox-container">
+                    <input type="checkbox" id="remember-me" name="remember-me">
+                    <label for="remember-me">Remember Me</label>
+                </div>
+
+                <a href="#" class="forgot-password">Forgot Password?</a>
+
+                <button type="submit" class="login-button">Login</button>
+            </form>
+        </div>
+    </div>
+
+    
+
+</body>
+</html>

@@ -1,0 +1,189 @@
+/* General Styling */
+body.login-page {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background: url('https://i.ibb.co/HrFT42V/action-athlete-barbell-841130.jpg') no-repeat center center fixed;
+    background-size: cover;
+/*     color: #ffffff; */
+}
+header {
+    background-color: #2a2a3e;
+    padding: 10px 20px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    position: relative;
+    height: 80px;
+}
+
+header .logo {
+    position: absolute;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+header .logo img {
+    height: 130px; /* Adjusted logo height */
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    margin-left: 150px;
+}
+
+nav ul li {
+    margin-left: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #444;
+}
+.nav-links {
+    list-style-type: none;
+}
+
+.nav-links li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.nav-links a {
+    color: #ffc8dd;
+    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.slogan {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2rem;
+    color: #a2d2ff;
+}
+/* Container to ensure the login section stands out */
+.container {
+    position: relative;
+    z-index: 1; /* Ensure content is above the background image */
+}
+
+/* Clear the blur effect on the container and its contents */
+
+
+/* Header Styling */
+
+
+
+
+/* Login Container */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Center vertically */
+     /* White background with slight opacity */
+    padding: 20px;
+     /* Subtle shadow */
+    border-radius: 10px;
+/*     backdrop-filter: blur(4px); /* Reduced blur effect */ */
+    width: 100%;
+    max-width: 500px; /* Set max width for the login container */
+    margin: 0 auto; /* Center the container horizontally */
+}
+
+
+.login-form {
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    width: 100%;
+    padding: 20px;
+     /* Slightly more opaque background */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.login-form h2 {
+    margin-bottom: 20px;
+    color: #007bff; /* Primary Color */
+    text-align: center;
+}
+
+.login-form label {
+    display: block;
+    margin: 10px 0 5px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.login-form input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.login-form .checkbox-container label {
+    color: #343a40; /* Dark Gray for label */
+}
+
+.login-form .forgot-password {
+    display: block;
+    text-align: right;
+    color: #007bff; /* Primary Color */
+    text-decoration: none;
+}
+
+.login-form .forgot-password:hover {
+    text-decoration: underline;
+}
+
+.login-form .login-button {
+    background-color: #28a745; /* Accent Color */
+    color: #ffffff; /* Button Text Color */
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.login-form .login-button:hover {
+    background-color: #218838; /* Darker Green */
+}
+
+/* Footer Styling */
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .login-container {
+        height: auto; /* Adjust height for mobile */
+        padding: 20px;
+    }
+
+    
+}
