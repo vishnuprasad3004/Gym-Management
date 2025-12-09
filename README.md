@@ -325,7 +325,6 @@ Recruiters love seeing combined technical + analytical skills.
 
 You can mention future plans to show vision:
 
-Add real backend (Node.js / Firebase / PHP)
 
 Membership purchase flow
 
